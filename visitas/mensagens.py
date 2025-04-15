@@ -1,7 +1,7 @@
 import os
 from datetime import datetime
 
-mensagens = "mensagens.txt"
+mensagens = r"visitas\mensagens.txt"
 
 def checar_arquivo():
     if not os.path.exists(mensagens):
@@ -9,3 +9,4 @@ def checar_arquivo():
             pass
         print("Arquivo criado com sucesso.")
 
+checar_arquivo()
