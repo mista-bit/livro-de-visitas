@@ -19,16 +19,16 @@ Este projeto é uma aplicação web simples desenvolvida sem o uso de frameworks
 
 ## 📁 Estrutura do Projeto
 
-visitas/
-│
-├── static/
-│   ├── scripts.js
-│   └── style.css
-│
-├── mensagens.py
-├── pagina.py
-├── requirements.txt
-├── server.py
+| Nome do Arquivo/Pasta | Descrição |
+|------------------------|-----------|
+| `visitas/`             | Pasta raiz do projeto |
+| `static/`              | Pasta que contém os arquivos estáticos (CSS e JS) |
+| `static/scripts.js`    | Código JavaScript da interface (atalhos e interações) |
+| `static/style.css`     | Estilo responsivo da página |
+| `mensagens.py`         | Manipulação do arquivo de mensagens (ler, salvar, deletar) |
+| `pagina.py`            | Geração do HTML da página principal |
+| `requirements.txt`     | Lista de dependências do projeto (nenhuma externa neste caso) |
+| `server.py`            | Código principal do servidor HTTP (procedural) |
 
 ---
 
