@@ -13,7 +13,6 @@ Este projeto é uma aplicação web simples desenvolvida sem o uso de frameworks
 ### Front-end
 - HTML5
 - CSS3 (responsivo)
-- JavaScript (para interações dinâmicas e atalhos de teclado)
 
 ---
 
