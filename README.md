@@ -22,13 +22,13 @@ Este projeto é uma aplicação web simples desenvolvida sem o uso de frameworks
 visitas/
 │
 ├── static/
-│   ├── scripts.js          # Código JavaScript da interface (atalhos e interações)
-│   └── style.css           # Estilo responsivo da página
+│   ├── scripts.js
+│   └── style.css
 │
-├── mensagens.py            # Manipulação do arquivo de mensagens (ler, salvar, deletar)
-├── pagina.py               # Geração de HTML da página principal
-├── requirements.txt        # Dependências do projeto (nenhuma externa nesse caso)
-├── server.py               # Código principal do servidor HTTP procedural
+├── mensagens.py
+├── pagina.py
+├── requirements.txt
+├── server.py
 
 ---
 
