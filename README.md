@@ -21,8 +21,7 @@ Este projeto é uma aplicação web simples desenvolvida sem o uso de frameworks
 | Nome do Arquivo/Pasta | Descrição |
 |------------------------|-----------|
 | `visitas/`             | Pasta raiz do projeto |
-| `static/`              | Pasta que contém os arquivos estáticos (CSS e JS) |
-| `static/scripts.js`    | Código JavaScript da interface (atalhos e interações) |
+| `static/`              | Pasta que contém os arquivos estáticos (CSS) |
 | `static/style.css`     | Estilo responsivo da página |
 | `mensagens.py`         | Manipulação do arquivo de mensagens (ler, salvar, deletar) |
 | `pagina.py`            | Geração do HTML da página principal |
@@ -52,7 +51,6 @@ Este projeto é uma aplicação web simples desenvolvida sem o uso de frameworks
 - Exclusão individual de mensagens
 - Interface responsiva com HTML/CSS/JS
 - Criação automática do arquivo de mensagens se não existir
-- Atalho de teclado (Shift + Q) para encerrar o servidor sem fechar o terminal
 
 ---
 
@@ -61,12 +59,6 @@ Este projeto é uma aplicação web simples desenvolvida sem o uso de frameworks
 - Python 3.x
 - Nenhuma biblioteca externa é necessária.
 - Tudo é feito com módulos padrão do Python.
-
----
-
-## 🔐 Encerramento com Atalho de Teclado
-
-O JavaScript escuta a tecla `Shift + Q` e envia uma requisição ao servidor, que interpreta isso como um sinal para encerramento limpo da aplicação.
 
 ---
 
