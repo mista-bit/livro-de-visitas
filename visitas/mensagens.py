@@ -28,3 +28,12 @@ def salvar_mensagem(nome, mensagem):
         arquivo.write(linha)
     print("Mensagem salva com sucesso.")
     
+def apagar_mensagem(id_mensagem):
+    """Apaga uma mensagem do arquivo."""
+    checar_arquivo()
+    mensagens_existentes = ler_mensagens()
+    with open(mensagens, 'w', encoding="utf-8") as arquivo:
+        for linha in mensagens_existentes:
+            if not linha.split(" || ")[0] == id_mensagem:
+                arquivo.write(linha)
+    print("Mensagem apagada com sucesso.")
