@@ -1,1 +1,1 @@
-20250506111525 || Pedro Henrique de Almeida Araujo || O SERVIDOR TÁ FUNCIONANDO CACETAAAAAAAAA
+20250506180821 || Davi || Acabei de deixar a pagina responsiva, fiz fiz fiz e percebi que estava fazendo o cosdigo em um arquivo css q nao tinha nada a ver com isso
