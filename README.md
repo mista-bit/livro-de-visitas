@@ -1,67 +1,67 @@
-# 💬 Aplicação Web de Mensagens em Python (Sem Frameworks)
+# Livro de Visitas Web - Python Puro
 
-Este projeto é uma aplicação web simples desenvolvida sem o uso de frameworks, utilizando apenas Python puro e o paradigma procedural. O objetivo é registrar, visualizar e excluir mensagens, armazenadas em um arquivo `.txt`.
+Servidor web completo para livro de visitas desenvolvido com Python padrão (sem frameworks).
 
----
+## Estrutura do Projeto
 
-## 🛠 Tecnologias Utilizadas
+```
+livro-visitas/
+│
+├── static/
+│   └── style.css          # Arquivo de estilos CSS
+│
+├── templates/
+│   └── index.html         # Template HTML base
+│
+├── mensagens.py           # Lógica de manipulação das mensagens
+├── pagina.py              # Gerador de páginas HTML
+├── server.py              # Servidor HTTP principal
+└── README.md              # Documentação do projeto
+```
 
-### Back-end
-- Python 3.x (sem frameworks)
-- Módulos padrão: http.server, os, urllib, datetime
+## Como Usar
 
-### Front-end
-- HTML5
-- CSS3 (responsivo)
+1. Clone o repositório:
+```bash
+git clone https://github.com/seu-usuario/livro-visitas.git
+cd livro-visitas
+```
 
----
+2. Inicie o servidor:
+```bash
+python server.py
+```
 
-## 📁 Estrutura do Projeto
+3. Acesse no navegador:
+```
+http://localhost:8080
+```
 
-| Nome do Arquivo/Pasta | Descrição |
-|------------------------|-----------|
-| `visitas/`             | Pasta raiz do projeto |
-| `static/`              | Pasta que contém os arquivos estáticos (CSS) |
-| `static/style.css`     | Estilo responsivo da página |
-| `mensagens.py`         | Manipulação do arquivo de mensagens (ler, salvar, deletar) |
-| `pagina.py`            | Geração do HTML da página principal |
-| `requirements.txt`     | Lista de dependências do projeto (nenhuma externa neste caso) |
-| `server.py`            | Código principal do servidor HTTP (procedural) |
+## Funcionalidades Principais
 
----
+- **Backend**:
+  - Servidor HTTP implementado com sockets Python
+  - Sistema completo de CRUD para mensagens
+  - Armazenamento persistente em arquivo texto
 
-## ▶️ Como Executar
+- **Frontend**:
+  - Interface limpa e responsiva
+  - Formulário para envio de mensagens
+  - Visualização e exclusão de mensagens
 
-1. Certifique-se de que o Python 3 está instalado.
-2. (Opcional) Ative o ambiente virtual dentro da pasta `.venv`.
-3. Rode o servidor com:
+## Arquivos Principais
 
-   python server.py
+- `server.py`: Implementação do servidor web
+- `mensagens.py`: Manipulação do arquivo de mensagens
+- `pagina.py`: Geração do HTML dinâmico
+- `templates/index.html`: Template base da aplicação
+- `static/style.css`: Estilos da aplicação
 
-4. Acesse no navegador:
+## Requisitos
 
-   http://localhost:8000
+- Python 3.6 ou superior
+- Nenhuma dependência externa necessária
 
----
+## Licença
 
-## 📝 Funcionalidades
-
-- Visualização de todas as mensagens
-- Registro de novas mensagens com data e hora
-- Exclusão individual de mensagens
-- Interface responsiva com HTML/CSS/JS
-- Criação automática do arquivo de mensagens se não existir
-
----
-
-## 🧪 Requisitos
-
-- Python 3.x
-- Nenhuma biblioteca externa é necessária.
-- Tudo é feito com módulos padrão do Python.
-
----
-
-## 📄 Licença
-
-Este projeto está disponível sob a licença MIT. Fique à vontade para estudar, adaptar ou compartilhar!
+MIT License - Consulte o arquivo [LICENSE](LICENSE) para detalhes.
