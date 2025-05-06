@@ -5,6 +5,7 @@ def renderizar_pagina(mensagens, mensagem_sucesso=""):
     """
     Gera o HTML final substituindo os marcadores do index.html.
     """
+    css_path = "/static/style.css"
     base_dir = os.path.dirname(os.path.abspath(__file__))
     template_path = os.path.join(base_dir, "templates\index.html")
     with open(template_path, "r", encoding="utf-8") as f:
@@ -33,6 +34,8 @@ def renderizar_pagina(mensagens, mensagem_sucesso=""):
 
     html = html.replace("<!-- MENSAGEM_SUCESSO -->", bloco_sucesso)
     html = html.replace("<!-- MENSAGENS_LISTA -->", f"<ul>{lista_html}</ul>")
+    html = html.replace("<!-- CSS para estilizacao -->", f"""<link rel="stylesheet" href="{css_path}">""")
+
 
     return html
 
