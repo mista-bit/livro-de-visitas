@@ -56,6 +56,11 @@ input, textarea {
     transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
+textarea {
+    /* Impede o redimensionamento do textarea */
+    resize: none;
+}
+
 input:focus, textarea:focus {
     outline: none;
     border-color: #888;
