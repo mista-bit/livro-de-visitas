@@ -1,7 +1,7 @@
 import os
 from datetime import datetime
 
-mensagens = r"visitas\mensagens.txt"
+mensagens = os.path.join(os.path.dirname(__file__), "mensagens.txt")
 
 def gerar_id():
     """Gera um ID único baseado na data e hora atual."""
