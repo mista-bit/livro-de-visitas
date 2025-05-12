@@ -22,10 +22,6 @@ livro-visitas/
 ## Como Usar
 
 1. Clone o repositório:
-```bash
-git clone https://github.com/seu-usuario/livro-visitas.git
-cd livro-visitas
-```
 
 2. Inicie o servidor:
 ```bash
